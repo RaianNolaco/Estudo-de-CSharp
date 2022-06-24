@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Estudo.CursoUdemy.POO_1.ExerciciosPropostos;
+using System;
 using System.Globalization;
 
 namespace Estudo.CursoUdemy.POO_1
@@ -7,14 +8,24 @@ namespace Estudo.CursoUdemy.POO_1
     {
         static void Main(string[] args)
         {
+            while (true)
+            {
+                ExecExercicios.funcionario();
+                Console.WriteLine("================================");
+            } 
+        }
+
+        public static void TrianguAula39Classes()
+        {
+
 
             Triangulo x = new Triangulo();
             Triangulo y = new Triangulo();
 
-            
+
 
             Console.WriteLine("Digite as medidos de um triangulo: ");
-            x.A= double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            x.A = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             x.B = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             x.C = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
@@ -33,7 +44,6 @@ namespace Estudo.CursoUdemy.POO_1
             Console.WriteLine("Área de Y: " + areaY.ToString("F4 ", CultureInfo.InvariantCulture));
 
             Console.WriteLine("Maior area: " + (areaX > areaY ? "X" : "Y"));
-
 
         }
 
