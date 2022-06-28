@@ -10,7 +10,7 @@ namespace Estudo.CursoUdemy.POO_1.ExerciciosPropostos
     public class ExecExercicios
     {
     
-       public static void pessoa()
+       public static void Pessoa()
         {
             Pessoa primeira = new Pessoa();
             Pessoa segunda = new Pessoa();
@@ -42,7 +42,7 @@ namespace Estudo.CursoUdemy.POO_1.ExerciciosPropostos
             Console.WriteLine($"Pessoa mais velha:{maisVelha}");
         }
     
-        public static void funcionario()
+        public static void Funcionario()
         {
             Funcionario funcionario1 = new Funcionario();
             Funcionario funcionario2 = new Funcionario();
@@ -66,6 +66,60 @@ namespace Estudo.CursoUdemy.POO_1.ExerciciosPropostos
             double media = (funcionario1.Salario + funcionario2.Salario) / 2;
             Console.WriteLine($"Salario médio: {media.ToString("F2",CultureInfo.InvariantCulture)}");
 
+        }
+
+        public static void Retangulo()
+        {
+            Retangulo r = new Retangulo();
+
+            Console.Write("Entre com a Largura e altura do triangulo em um mesma linha: ");
+            string n = Console.ReadLine();
+            string[] vet = n.Split(' ');
+
+            r.Largura = double.Parse(vet[0]);
+            r.Altura = double.Parse(vet[1]);
+
+            Console.WriteLine("AREA = " + r.Area().ToString("F2", CultureInfo.InvariantCulture));
+            Console.WriteLine("PERIMETRO = "+ r.Perimetro().ToString("F2", CultureInfo.InvariantCulture));
+            Console.WriteLine("DIGITAL = " + r.Diagonal().ToString("F2", CultureInfo.InvariantCulture)  );
+
+        }
+
+        public static void FuncionarioDois()
+        {
+            FuncionarioDois funcionario = new FuncionarioDois();
+
+            Console.Write("Nome: ");
+            funcionario.Nome = Console.ReadLine();
+
+            Console.Write("Salário Bruto: ");
+            funcionario.SalarioBruto = double.Parse(Console.ReadLine(),CultureInfo.InvariantCulture);
+
+            Console.Write("Imposto: ");
+            funcionario.Imposto = double.Parse(Console.ReadLine(),CultureInfo.InvariantCulture);
+
+            Console.WriteLine("\nFuncionário: " + funcionario);
+
+            Console.Write("\nDigite a porcentagem para aumentar o salario: ");
+            funcionario.AumentarSalario(double.Parse(Console.ReadLine(),CultureInfo.InvariantCulture));
+
+            Console.WriteLine("\nDados Atualizados: " + funcionario);
+        }
+
+        public static void Aluno()
+        {
+            Aluno aluno = new Aluno();
+
+            Console.Write("Nome do Aluno: ");
+            aluno.Nome = Console.ReadLine();
+
+            Console.WriteLine("Digite as três notas do aluno:");
+            aluno.PrimeiraNota = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture); 
+            aluno.SegundaNota = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            aluno.TerceiraNota = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            Console.WriteLine("NOTA FINAL = "+ aluno.NotaFinal());
+            aluno.ValidarNota();
         }
     }
 }

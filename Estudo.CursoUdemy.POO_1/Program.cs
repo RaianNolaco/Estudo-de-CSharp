@@ -1,5 +1,6 @@
 ﻿using Estudo.CursoUdemy.POO_1.AulasExemplos;
 using Estudo.CursoUdemy.POO_1.AulasExemplos.ExemploProduto;
+using Estudo.CursoUdemy.POO_1.AulasExemplos.ExemplosClassesEstaticas;
 using Estudo.CursoUdemy.POO_1.ExerciciosPropostos;
 using System;
 using System.IO;
@@ -12,8 +13,8 @@ namespace Estudo.CursoUdemy.POO_1
         {
             while (true)
             {
-                ProdutoAula.produtoAula44();
-                Console.WriteLine("================================");
+                ClassesEstaticas.Execultar();
+                Console.WriteLine("\n=====================================================================================\n");
             } 
         }
     }
