@@ -13,7 +13,7 @@ namespace Estudo.CursoUdemy.POO_1
         {
             while (true)
             {
-                ClassesEstaticas.Execultar();
+                ExecultorExercicios.ConversorMoeda();
                 Console.WriteLine("\n=====================================================================================\n");
             } 
         }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Estudo.CursoUdemy.POO_1.ExerciciosPropostos.Exercicios_Classes_Estaticas;
+using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Estudo.CursoUdemy.POO_1.ExerciciosPropostos
 {
-    public class ExecExercicios
+    public class ExecultorExercicios
     {
     
        public static void Pessoa()
@@ -121,5 +122,21 @@ namespace Estudo.CursoUdemy.POO_1.ExerciciosPropostos
             Console.WriteLine("NOTA FINAL = "+ aluno.NotaFinal());
             aluno.ValidarNota();
         }
+
+        public static void ConversorMoeda()
+        {
+
+            Console.Write("Digite a cotação atual do dolar: ");
+            double dolar = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            Console.Write("Digite a Quantidade de Dolares que você ira comprar: ");
+            double qnt = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            double convercao = ConversorDeMoeda.DolarParaReal(dolar, qnt);
+
+            Console.WriteLine("Valor a ser pago em reais: R$" + convercao.ToString("F2", CultureInfo.InvariantCulture));
+
+        }
+
     }
 }
