@@ -1,4 +1,5 @@
 ﻿using Estudo.CursoUdemy.POO_2.AulasExemplos.ExemploProduto;
+using Estudo.CursoUdemy.POO_2.ExerciciosPropostos;
 using System;
 
 namespace Estudo.CursoUdemy.POO_2
@@ -9,7 +10,7 @@ namespace Estudo.CursoUdemy.POO_2
         {
             while (true)
             {
-                ProdutoExecAula.Aula55();
+                ExercicosExec.exercico();
                 Console.WriteLine("\n=============================================================\n");
                 Console.ReadLine();
             }
