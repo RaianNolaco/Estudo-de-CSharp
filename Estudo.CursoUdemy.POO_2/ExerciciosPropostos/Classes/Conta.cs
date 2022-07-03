@@ -13,11 +13,15 @@ namespace Estudo.CursoUdemy.POO_2.ExerciciosPropostos.Classes
         public int Numero { get; private set; }
         public string Nome { get; set; }
 
-        public Conta(int numero, string nome, double saldo = 0.0)
+        public Conta(int numero, string nome)
         {
             Numero = numero;
             Nome = nome;
-            Saldo = saldo;
+        }
+
+        public Conta(int numrero, string nome, double depositoInicial) :this(numrero,nome)
+        {
+            Depositar(depositoInicial);
         }
 
         public void Depositar(double valor)

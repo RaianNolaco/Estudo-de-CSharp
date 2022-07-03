@@ -14,7 +14,7 @@ namespace Estudo.CursoUdemy.POO_2.ExerciciosPropostos
         {
             int numero;
             string nome;
-            double saldo = 0;
+            Conta c1;
 
             Console.Write("Digite o numero da conta: ");
             numero = int.Parse(Console.ReadLine());
@@ -29,10 +29,13 @@ namespace Estudo.CursoUdemy.POO_2.ExerciciosPropostos
             if (resp == "S" || resp == "s")
             {
                 Console.Write("Digite o valor que deseja depositar: ");
-                saldo = double.Parse(Console.ReadLine(),CultureInfo.InvariantCulture);
+                double saldo = double.Parse(Console.ReadLine(),CultureInfo.InvariantCulture);
+                c1 = new Conta(numero, nome, saldo);
             }
-
-            Conta c1 = new Conta(numero, nome, saldo);
+            else
+            {
+                c1 = new Conta(numero, nome);
+            }
 
 
             Console.WriteLine("\nDados da conta:\n" + c1);

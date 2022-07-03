@@ -10,6 +10,7 @@ namespace Estudo.CursoUdemy.POO_2.AulasExemplos.ExemploProduto
 {
     class ProdutoExecAula
     {
+        //Encapsulamento
         public static void ProdutoAntigoo()
         {
             /* Produto p = new Produto();
