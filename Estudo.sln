@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Estudo.CursoUdemy.Secao4", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Estudo.CursoUdemy.Secao5", "Estudo.CursoUdemy.POO_2\Estudo.CursoUdemy.Secao5.csproj", "{8439860E-6A2D-4670-9F2B-78EA88358AB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estudo.CursoUdemy.Secao6", "Estudo.CursoUdemy.Secao6\Estudo.CursoUdemy.Secao6.csproj", "{2578F6DC-AE09-40F3-9C69-C6BB261A3F5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Estudo.CursoUdemy.Secao6", "Estudo.CursoUdemy.Secao6\Estudo.CursoUdemy.Secao6.csproj", "{2578F6DC-AE09-40F3-9C69-C6BB261A3F5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

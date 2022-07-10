@@ -4,18 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Estudo.CursoUdemy.Secao6.ExemplosAula.ExemploNullable
-{
-    class ExecNullble
-    {
-    }using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace Estudo.CursoUdemy.Secao6.AulasExemplos.ExemploNullable
-    {
+{
         class ExecNullable
         {
             public static void executar()
@@ -60,5 +50,5 @@ namespace Estudo.CursoUdemy.Secao6.AulasExemplos.ExemploNullable
 
             }
         }
-    }
 }
+
