@@ -6,7 +6,11 @@ namespace Estudo.Estudo.Beecrowd.Iniciante
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            while (true)
+            {
+                Exercicios.Lanche();
+                Console.WriteLine("==========================================================================");
+            }
         }
     }
 }

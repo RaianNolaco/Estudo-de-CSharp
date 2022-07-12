@@ -10,8 +10,8 @@ namespace Estudo.CursoUdemy.Secao6
         {
             while (true)
             {
-              //  ExecVetorParte2.produtos();
-                exercicos();
+                ExecVetorParte2.produtos();
+                
 
                 Console.WriteLine("===================================================");
                 //Console.ReadLine();
@@ -19,25 +19,5 @@ namespace Estudo.CursoUdemy.Secao6
 
         }
 
-        static void exercicos()
-        {
-            int idade = int.Parse(Console.ReadLine());
-
-            int qntAnos  = 0;
-            int qntMeses = 0;
-
-            while (idade >= 365)
-            {
-                idade -= 365;
-                qntAnos++;
-            }
-            while (idade >= 30)
-            {
-                idade -= 30;
-                qntMeses++;
-            }
-
-            Console.WriteLine($"{qntAnos} ano (s)\n{qntMeses} mes (es)\n{idade} dia (s)");
-        }
     }
 }
