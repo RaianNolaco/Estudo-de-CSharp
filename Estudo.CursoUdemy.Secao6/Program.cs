@@ -12,8 +12,7 @@ namespace Estudo.CursoUdemy.Secao6
             while (true)
             {
                 ExecHotel.Execultar();
-                
-
+               
                 Console.WriteLine("===================================================");
                 //Console.ReadLine();
             }

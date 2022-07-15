@@ -42,9 +42,12 @@ namespace Estudo.CursoUdemy.Secao6.ExerciciosPropostos.ExerciciosVetores
                 hospedes[quarto] = new Quartos { HospedeNome = nome, HospedeEmail = email, NumeroQuarto = quarto };
             }
 
-            for (int i = 1; i < qnt; i++)
+            foreach (var item in hospedes)
             {
-                Console.WriteLine();
+                if(!(item == null))
+                {
+                    Console.WriteLine("\n"+item);
+                }
             }
         }
     }

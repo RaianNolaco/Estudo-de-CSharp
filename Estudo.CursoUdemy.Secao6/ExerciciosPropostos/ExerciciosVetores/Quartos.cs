@@ -11,5 +11,10 @@ namespace Estudo.CursoUdemy.Secao6.ExerciciosPropostos.ExerciciosVetores
         public string HospedeNome { get; set; }
         public string HospedeEmail { get; set; }
         public int NumeroQuarto { get; set; }
+
+        public override string ToString()
+        {
+            return $"{NumeroQuarto}: {HospedeNome} ,{HospedeEmail}";
+        }
     }
 }
