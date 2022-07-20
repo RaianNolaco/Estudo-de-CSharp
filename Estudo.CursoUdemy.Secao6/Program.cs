@@ -1,5 +1,6 @@
 ﻿using Estudo.CursoUdemy.Secao6.ExemplosAula.ExemploBoxingUnboxing;
 using Estudo.CursoUdemy.Secao6.ExemplosAula.ExemploForeach;
+using Estudo.CursoUdemy.Secao6.ExemplosAula.ExemploList;
 using Estudo.CursoUdemy.Secao6.ExemplosAula.ExemploParams;
 using Estudo.CursoUdemy.Secao6.ExemplosAula.ExemploRefOut_;
 using Estudo.CursoUdemy.Secao6.ExemplosAula.ExemploVetor;
@@ -15,7 +16,7 @@ namespace Estudo.CursoUdemy.Secao6
         {
             while (true)
             {
-                ExecForeach.Execultar();
+                ExecList.Execultar();
                 Console.WriteLine("===================================================");
                 Console.ReadLine();
     
