@@ -10,6 +10,7 @@ using Estudo.CursoUdemy.Secao6.Struct;
 using System;
 using Estudo.CursoUdemy.Secao6.ExemplosAula.ExemploNullable_;
 using Estudo.CursoUdemy.Secao6.AulasExemplos.ExemploVetor;
+using Estudo.CursoUdemy.Secao6.ExerciciosPropostos.exercicioMatrizes;
 
 namespace Estudo.CursoUdemy.Secao6
 {
@@ -27,7 +28,7 @@ namespace Estudo.CursoUdemy.Secao6
                 //ExecForeach.Execultar();
                 //ExecList.Execultar();
                 //ExecMatriz.Execultar();
-                ExercicioMatriz.ExercicioAula();
+                //ExercicioMatriz.ExercicioAula();
                 //ExecNullble_.Executar();
                 //ExecParams.Execultar();
                 //ExecOutRef.Execultar();
@@ -39,7 +40,7 @@ namespace Estudo.CursoUdemy.Secao6
 
                 //ExecHotel.Execultar();
                 //ExecFuncionario.Execultar();
-
+                ExecMatrizExercicio.Execultar();
 
                 Console.WriteLine("===================================================");
                 Console.ReadLine();
