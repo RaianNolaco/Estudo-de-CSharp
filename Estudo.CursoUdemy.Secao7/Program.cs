@@ -1,4 +1,5 @@
-﻿using Estudo.CursoUdemy.Secao7.ExemploAula.ExemploFuncoesString;
+﻿using Estudo.CursoUdemy.Secao7.ExemploAula.ExemploDateTime;
+using Estudo.CursoUdemy.Secao7.ExemploAula.ExemploFuncoesString;
 using Estudo.CursoUdemy.Secao7.ExemploAula.ExemploIfTernario;
 using Estudo.CursoUdemy.Secao7.ExemploAula.ExemploSwitchCase;
 using Estudo.CursoUdemy.Secao7.ExemploAula.ExemploVar;
@@ -19,7 +20,8 @@ namespace Estudo.CursoUdemy.Secao7
                 //ExecVar.Executar();
                 //ExecSwitchCase.Executar();
                 //ExecIfTernario.Executar();
-                ExecFuncoesString.Executar();
+                //ExecFuncoesString.Executar();
+                ExecDateTime.Executar();
 
                 //============ Exercicios ============//
 
