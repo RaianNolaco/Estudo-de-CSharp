@@ -8,7 +8,7 @@ namespace Estudo.CursoUdemy.Secao6.ExerciciosPropostos.ExerciciosVetores
 {
     class ExecHotel
     {
-        public static void Execultar()
+        public static void Executar()
         {
             Console.Write("\nDigite a quantidade de quartos que irão ser reservcados: ");
             int qnt = int.Parse(Console.ReadLine());

@@ -11,7 +11,7 @@ namespace Estudo.CursoUdemy.POO_1.AulasExemplos.ExemplosClassesEstaticas
     {
         static double PI = 3.14;
 
-        public static void ExecultarAula47()
+        public static void ExecutarAula47()
         {
             //nesse caso criamos uma classe estatica chamada calculadora para armazernar nossas funçoes, metodos e atributos
             Console.Write("Entre com o valor do raio: ");
@@ -24,7 +24,7 @@ namespace Estudo.CursoUdemy.POO_1.AulasExemplos.ExemplosClassesEstaticas
             Console.WriteLine("Volume: " + volume.ToString("F2", CultureInfo.InvariantCulture));
             Console.WriteLine("Valor de PI: " + PI.ToString("F2", CultureInfo.InvariantCulture));
         }
-        public static void ExecultarAula46()
+        public static void ExecutarAula46()
         {
             //nesse exemplo estamos criando os metodos no mesmo lugar aonde iremos chama-los
             Console.Write("Entre com o valor do raio: ");

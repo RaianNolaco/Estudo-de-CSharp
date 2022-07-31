@@ -71,7 +71,7 @@ namespace Estudo.CursoUdemy.Secao6.ExemplosAula.ExemploForeach
                 }
             }
 
-            ExecForeach.Execultar();
+            ExecForeach.Executar();
         }
 
         public static void Pesquisar()

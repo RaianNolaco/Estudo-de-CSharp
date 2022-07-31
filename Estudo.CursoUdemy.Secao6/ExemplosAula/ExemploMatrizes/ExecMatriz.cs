@@ -8,7 +8,7 @@ namespace Estudo.CursoUdemy.Secao6.ExemplosAula.ExemploMatrizes
 {
     class ExecMatriz
     {
-        public static void Execultar()
+        public static void Executar()
         {
             double[,] mat = new double[2, 3];
 

@@ -9,7 +9,7 @@ namespace Estudo.CursoUdemy.Secao6.ExerciciosPropostos.ExercicoListas
 {
     class ExecFuncionario
     {
-        public static void Execultar()
+        public static void Executar()
         {
             List<Funcionario> funcionarios = new List<Funcionario>();  
 

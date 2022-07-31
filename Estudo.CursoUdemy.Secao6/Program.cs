@@ -24,23 +24,23 @@ namespace Estudo.CursoUdemy.Secao6
 
                 //============ Exemplos ============//
 
-                //ExecBoxingUnboxing.Execultar();
-                //ExecForeach.Execultar();
-                //ExecList.Execultar();
-                //ExecMatriz.Execultar();
+                //ExecBoxingUnboxing.Executar();
+                //ExecForeach.Executar();
+                //ExecList.Executar();
+                //ExecMatriz.Executar();
                 //ExercicioMatriz.ExercicioAula();
                 //ExecNullble_.Executar();
-                //ExecParams.Execultar();
-                //ExecOutRef.Execultar();
+                //ExecParams.Executar();
+                //ExecOutRef.Executar();
                 //ExecStruct.exemplo();
                 //ExecVetor.executar();
 
 
                 //============ Exercicios ============//
 
-                //ExecHotel.Execultar();
-                //ExecFuncionario.Execultar();
-                ExecMatrizExercicio.Execultar();
+                //ExecHotel.Executar();
+                //ExecFuncionario.Executar();
+                ExecMatrizExercicio.Executar();
 
                 Console.WriteLine("===================================================");
                 Console.ReadLine();

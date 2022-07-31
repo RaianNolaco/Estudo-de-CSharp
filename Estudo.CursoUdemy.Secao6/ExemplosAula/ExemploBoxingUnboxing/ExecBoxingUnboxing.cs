@@ -8,7 +8,7 @@ namespace Estudo.CursoUdemy.Secao6.ExemplosAula.ExemploBoxingUnboxing
 {
     class ExecBoxingUnboxing
     {
-        public static void Execultar()
+        public static void Executar()
         {
             int x = 10;
             Console.WriteLine(x);

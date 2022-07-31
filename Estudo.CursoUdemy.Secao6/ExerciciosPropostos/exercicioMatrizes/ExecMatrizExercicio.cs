@@ -8,7 +8,7 @@ namespace Estudo.CursoUdemy.Secao6.ExerciciosPropostos.exercicioMatrizes
 {
     class ExecMatrizExercicio
     {
-        public static void Execultar()
+        public static void Executar()
         {
             Console.Write("Digite a ordem X da sua matriz: ");
             int x = int.Parse(Console.ReadLine());

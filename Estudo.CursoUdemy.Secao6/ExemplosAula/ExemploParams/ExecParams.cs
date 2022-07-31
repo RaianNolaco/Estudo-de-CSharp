@@ -9,7 +9,7 @@ namespace Estudo.CursoUdemy.Secao6.ExemplosAula.ExemploParams
 {
     class ExecParams
     {
-        public static void Execultar()
+        public static void Executar()
         {
             double soma1 = CalcErrada.Soma(3,2,5);
             double soma2 = CalcSemParams.Soma(new double[]{ 3, 2, 5 });

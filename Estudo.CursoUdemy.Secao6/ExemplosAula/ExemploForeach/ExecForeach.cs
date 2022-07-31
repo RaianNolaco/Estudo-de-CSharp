@@ -8,7 +8,7 @@ namespace Estudo.CursoUdemy.Secao6.ExemplosAula.ExemploForeach
 {
     class ExecForeach
     {
-        public static void Execultar()
+        public static void Executar()
         {
             string[] vect = new string[] { "Viper", "Chamber", "Raze" };
 

@@ -8,7 +8,7 @@ namespace Estudo.CursoUdemy.Secao6.ExemplosAula.ExemploList
 {
     class ExecList
     {
-        public static void Execultar()
+        public static void Executar()
         {
             List<string> list = new List<string>();
 

@@ -5,7 +5,7 @@ namespace Estudo.CursoUdemy.Secao6.ExemplosAula.ExemploRefOut_
     class ExecOutRef
     {
      
-        public static void Execultar()
+        public static void Executar()
         {
             Console.WriteLine("Exemplo errado: ");
             int n1 = 10;
