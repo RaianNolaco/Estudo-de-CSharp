@@ -3,6 +3,7 @@ using Estudo.CursoUdemy.Secao7.ExemploAula.ExemploDateTime_II;
 using Estudo.CursoUdemy.Secao7.ExemploAula.ExemploFuncoesString;
 using Estudo.CursoUdemy.Secao7.ExemploAula.ExemploIfTernario;
 using Estudo.CursoUdemy.Secao7.ExemploAula.ExemploSwitchCase;
+using Estudo.CursoUdemy.Secao7.ExemploAula.ExemploTimeSpan_II;
 using Estudo.CursoUdemy.Secao7.ExemploAula.ExemploVar;
 using Estudo.CursoUdemy.Secao7.ExemploAula.TimeSpan_I;
 using System;
@@ -25,7 +26,8 @@ namespace Estudo.CursoUdemy.Secao7
                 //ExecFuncoesString.Executar();
                 //ExecDateTime.Executar();
                 //TimeSpan_I.Executar();
-                ExecDateTime_II.Executar();
+                //ExecDateTime_II.Executar();
+                ExecTimeSpan_II.Executar();
 
                 //============ Exercicios ============//
 

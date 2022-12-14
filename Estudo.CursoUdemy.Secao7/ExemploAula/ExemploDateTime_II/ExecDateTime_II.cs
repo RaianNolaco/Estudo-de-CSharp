@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Estudo.CursoUdemy.Secao7.ExemploAula.ExemploDateTime_II
 {
-    internal class ExecDateTime_II
+    public class ExecDateTime_II
     {
         public static void Executar()
         {
