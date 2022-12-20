@@ -21,7 +21,7 @@ namespace Estudo.CursoUdemy.Secao7.ExemploAula.ExemploTimeSpan_II
             Console.WriteLine("Valor zero: " + t3);
             
 
-            Console.WriteLine("\n========================\n");
+            Console.WriteLine("\n================================================\n");
 
             TimeSpan t4 = new TimeSpan(2, 3, 5, 7, 11);
             
@@ -41,7 +41,7 @@ namespace Estudo.CursoUdemy.Secao7.ExemploAula.ExemploTimeSpan_II
             Console.WriteLine("Total de Segundos: " + t4.TotalSeconds);
             Console.WriteLine("Total de Millisegundos: " + t4.TotalMilliseconds);
 
-            Console.WriteLine("\n========================\n");
+            Console.WriteLine("\n================================================\n");
 
 
             TimeSpan calcT1 = new TimeSpan(1,30,10);
@@ -61,10 +61,6 @@ namespace Estudo.CursoUdemy.Secao7.ExemploAula.ExemploTimeSpan_II
             Console.WriteLine("calcT1 - calcT2: " + subtracao);
             Console.WriteLine("calcT2 * 2: " + multiplicacao);
             Console.WriteLine("calcT2 / 2: " + divisao);
-
-
-
-
 
         }
     }
