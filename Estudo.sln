@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Estudo.CursoUdemy.RecapLogi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Estudo.Estudo.Beecrowd.Iniciante", "Estudo.Estudo.Beecrowd.Iniciante\Estudo.Estudo.Beecrowd.Iniciante.csproj", "{9A0B3639-11D7-4E8D-878D-A0A5E701F8BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estudo.CursoUdemy.Secao7", "Estudo.CursoUdemy.Secao7\Estudo.CursoUdemy.Secao7.csproj", "{D2E72FCD-7533-4DE0-A907-AC97558445A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Estudo.CursoUdemy.Secao7", "Estudo.CursoUdemy.Secao7\Estudo.CursoUdemy.Secao7.csproj", "{D2E72FCD-7533-4DE0-A907-AC97558445A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estudo.CursoUdemy.Secao9", "Estudo.CursoUdemy.Secao9\Estudo.CursoUdemy.Secao9.csproj", "{7B08F664-9DD2-4D18-9DE8-3EFDAAE7CF43}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{D2E72FCD-7533-4DE0-A907-AC97558445A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2E72FCD-7533-4DE0-A907-AC97558445A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2E72FCD-7533-4DE0-A907-AC97558445A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B08F664-9DD2-4D18-9DE8-3EFDAAE7CF43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B08F664-9DD2-4D18-9DE8-3EFDAAE7CF43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B08F664-9DD2-4D18-9DE8-3EFDAAE7CF43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B08F664-9DD2-4D18-9DE8-3EFDAAE7CF43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
