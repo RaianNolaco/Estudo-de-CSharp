@@ -28,6 +28,6 @@ namespace Estudo.CursoUdemy.Secao9.ExemploAula.Enumeracao
             OrderStatus os = Enum.Parse<OrderStatus>("Delivered");
 
             Console.WriteLine(os);
-        }
+        }//
     }
 }
