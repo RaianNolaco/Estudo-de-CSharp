@@ -8,7 +8,8 @@ namespace Estudo.Estudo.Beecrowd.Iniciante
         {
             while (true)
             {
-                Exercicios.Lanche();
+                //Exercicios.Lanche();
+                Bee1078_Tabuada.calculo();
                 Console.WriteLine("==========================================================================");
             }
         }
