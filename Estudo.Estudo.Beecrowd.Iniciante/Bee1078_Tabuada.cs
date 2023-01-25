@@ -22,6 +22,7 @@ namespace Estudo.Estudo.Beecrowd.Iniciante
             Console.WriteLine($"{cont} x {n} = {cont * n}");
             cont++;
 
+
             if (cont <= 10)
                 tabuada(n,cont);
         }
@@ -32,6 +33,9 @@ namespace Estudo.Estudo.Beecrowd.Iniciante
             {
                 Console.WriteLine($"{i} x {n} = {i * n}");
             }
+
+
+
         }
     }
 }
