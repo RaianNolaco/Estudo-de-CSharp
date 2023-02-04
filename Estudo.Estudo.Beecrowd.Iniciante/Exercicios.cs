@@ -8,7 +8,7 @@ namespace Estudo.Estudo.Beecrowd.Iniciante
 {
     class Exercicios
     {
-        public static void Lanche(){
+        public static void bee1030_Lanche(){
 
             string[] listaNumero = Console.ReadLine().Split(' ');
             int n1 = int.Parse(listaNumero[0]);
@@ -44,7 +44,7 @@ namespace Estudo.Estudo.Beecrowd.Iniciante
 
         }
     
-        public static void Positivo()
+        public static void bee160_Positivo()
         {
             int positivos = 0;
 
@@ -62,7 +62,7 @@ namespace Estudo.Estudo.Beecrowd.Iniciante
 
         }
 
-        public static void idadeEmDias()
+        public static void bee1020_IdadeEmDias()
         {
             int idade = int.Parse(Console.ReadLine());
 
@@ -81,6 +81,33 @@ namespace Estudo.Estudo.Beecrowd.Iniciante
             }
 
             Console.WriteLine($"{qntAnos} ano (s)\n{qntMeses} mes (es)\n{idade} dia (s)");
+        }
+
+        public static void bee1067_Impares()
+        {
+            int n = Convert.ToInt32(Console.ReadLine());
+
+            for(int i = 0; i <= n; i++)
+            {
+                if (i%2 != 0)
+                {
+                    Console.WriteLine(i);
+                }
+            }
+        }
+
+        public static void bee1013_ehMaior()
+        {
+        
+            string[] numeros = Console.ReadLine().Split(' ');
+            int[] numerosInt = Array.ConvertAll(numeros, int.Parse);
+
+            int maiorUm = (numerosInt[0] + numerosInt[1] + (numerosInt[0] - numerosInt[1])) / 2;
+            int maiorDois = (maiorUm + numerosInt[2] + (maiorUm - numerosInt[2])) / 2;
+
+            Console.WriteLine(maiorDois);
+
+
         }
     }
 }

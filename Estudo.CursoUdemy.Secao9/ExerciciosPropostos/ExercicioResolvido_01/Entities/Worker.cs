@@ -37,7 +37,17 @@ namespace Estudo.CursoUdemy.Secao9.ExerciciosPropostos.ExercicioResolvido_01.Ent
 
         public double income(int year, int month)
         {
-            return 0;
+            double sum = BaseSalary;
+
+            foreach (HourContract contrato in Contracts)
+            {
+                if(contrato.Data.Year == year && contrato.Data.Month == month)
+                {
+                    sum += contrato.totalValue();
+                }
+            }
+
+            return sum;
         }
     }
 }
