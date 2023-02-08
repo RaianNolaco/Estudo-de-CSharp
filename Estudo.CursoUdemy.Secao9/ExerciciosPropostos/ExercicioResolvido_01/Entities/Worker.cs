@@ -17,10 +17,10 @@ namespace Estudo.CursoUdemy.Secao9.ExerciciosPropostos.ExercicioResolvido_01.Ent
 
         public Worker() { }
 
-        public Worker(string nome, WorkerLevel level, double baseSalary, Departament departament)
+        public Worker(string nome, string level, double baseSalary, Departament departament)
         {
             Nome = nome;
-            Level = level;
+            Level = Enum.Parse<WorkerLevel>(level);
             BaseSalary = baseSalary;
             Departament = departament;
         }
@@ -35,7 +35,7 @@ namespace Estudo.CursoUdemy.Secao9.ExerciciosPropostos.ExercicioResolvido_01.Ent
             Contracts.Remove(contract);
         }
 
-        public double income(int year, int month)
+        public double income(int month, int year)
         {
             double sum = BaseSalary;
 
