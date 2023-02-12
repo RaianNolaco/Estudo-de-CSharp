@@ -34,5 +34,12 @@ namespace Estudo.CursoUdemy.Secao9.ExerciciosPropostos.ExercicioResolvido_02.Ent
         {
             Comments.Remove(comment);
         }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+
+
+        }
     }
 }

@@ -8,10 +8,10 @@ using System.Threading.Tasks;
 
 namespace Estudo.CursoUdemy.Secao9.ExerciciosPropostos.ExercicioResolvido_01
 {
-    public static class Main
+    public static class MainExemploUm
     {
 
-        public static void executar()
+        public static void Executar()
         {
 
             Console.Write("Enter departament's name: ");

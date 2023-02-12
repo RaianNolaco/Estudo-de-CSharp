@@ -2,6 +2,7 @@
 
 using Estudo.CursoUdemy.Secao9.ExemploAula.Enumeracao;
 using Estudo.CursoUdemy.Secao9.ExerciciosPropostos.ExercicioResolvido_01;
+using Estudo.CursoUdemy.Secao9.ExerciciosPropostos.ExercicioResolvido_02;
 
 while (true)
 {
@@ -9,7 +10,9 @@ while (true)
     Console.WriteLine("===================================================");
 
     //ExecEnumeracao.executar();
-    Main.executar();
+    //MainExemploUm.Executar();
+    MainExemploDois.Executar();
+    
 
     Console.WriteLine("===================================================");
     Console.ReadLine();
