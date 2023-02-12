@@ -39,7 +39,19 @@ namespace Estudo.CursoUdemy.Secao9.ExerciciosPropostos.ExercicioResolvido_02.Ent
         {
             StringBuilder sb = new StringBuilder();
 
+            sb.AppendLine(Title);
+            sb.Append(Likes);
+            sb.Append(" likes - ");
+            sb.AppendLine(Moment.ToString("dd/MM/yyyy HH:mm:ss"));
+            sb.AppendLine(Content);
+            sb.AppendLine("Comments");
 
+            foreach (Comment c in Comments)
+            {
+                sb.AppendLine(c.Text);
+            }
+
+            return sb.ToString();
         }
     }
 }
