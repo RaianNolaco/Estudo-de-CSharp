@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace Estudo.CursoUdemy.Secao9.ExerciciosPropostos.ExercicioProposto.Entities
 {
-    public class order
+    public class Order
     {
         public DateTime Moment { get; set; } = DateTime.Now;
         public OrderStatus Status { get; set; }
         public Client Client { get; set; }
         public List<OrderItem> Items { get; set; }
 
-        public order(OrderStatus status, Client client)
+        public Order(OrderStatus status, Client client)
         {
             Status = status;
             Client = client;
