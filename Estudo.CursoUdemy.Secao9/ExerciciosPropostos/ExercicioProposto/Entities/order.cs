@@ -39,5 +39,11 @@ namespace Estudo.CursoUdemy.Secao9.ExerciciosPropostos.ExercicioProposto.Entitie
 
             return total;
         }
+
+        public override string ToString()
+        {
+
+            return base.ToString();
+        }
     }
 }
