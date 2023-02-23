@@ -1,4 +1,4 @@
-﻿using System;
+﻿    using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,7 +8,7 @@ namespace Estudo.Estudo.Beecrowd.Iniciante
 {
     public class Bee1078_Tabuada
     {
-        public static void calculo()
+        public static void executar()
         {
 
             int numero = Convert.ToInt32(Console.ReadLine());

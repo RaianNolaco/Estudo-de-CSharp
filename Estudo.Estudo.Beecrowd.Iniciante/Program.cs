@@ -8,10 +8,16 @@ namespace Estudo.Estudo.Beecrowd.Iniciante
         {
             while (true)
             {
-                //Exercicios.Lanche();
-                //Bee1078_Tabuada.calculo();
-                //Exercicios.bee1067_Impares();
-                Exercicios.bee1013_ehMaior();
+                //Bee1000_HelloWorld..executar();
+                //Bee1013_ehMaior.executar();
+                //Bee1019_ConversaoTempo.executar();
+                //Bee1020_IdadeEmDias.executar();
+                //Bee1030_Lanche.executar();
+                //Bee1040_Media3.executar();
+                //Bee1060_Positivo.executar();
+                //Bee1067_Impares.executar();
+                //Bee1078_Tabuada.executar();
+
                 Console.WriteLine("==========================================================================");
             }
         }
