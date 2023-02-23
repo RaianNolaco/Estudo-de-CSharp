@@ -9,7 +9,7 @@ namespace Estudo.Estudo.Beecrowd.Iniciante
             while (true)
             {
                 //Bee1000_HelloWorld..executar();
-                //Bee1013_ehMaior.executar();
+                //Bee1013_EhMaior.executar();
                 //Bee1019_ConversaoTempo.executar();
                 //Bee1020_IdadeEmDias.executar();
                 //Bee1030_Lanche.executar();

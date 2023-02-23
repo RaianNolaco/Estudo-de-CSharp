@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Estudo.Estudo.Beecrowd.Iniciante
 {
-    public static class Bee1013_ehMaior
+    public static class Bee1013_EhMaior
     {
         public static void executar()
         {
