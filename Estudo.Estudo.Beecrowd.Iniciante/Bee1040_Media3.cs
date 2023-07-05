@@ -7,7 +7,6 @@ namespace Estudo.Estudo.Beecrowd.Iniciante
     {
         public static void executar()
         {
-            //string[] valoresTxt = new string[] { "0", "0", "0","0" };
             string[] valoresTxt = Console.ReadLine().Split();
 
             double[] valoresNum = new double[valoresTxt.Length];
@@ -19,7 +18,7 @@ namespace Estudo.Estudo.Beecrowd.Iniciante
 
             double mediaPonderada = ((valoresNum[0] * 2) + (valoresNum[1] * 3) + (valoresNum[2] * 4) + (valoresNum[3] * 1)) / 10;
 
-            Console.WriteLine($"Media:{mediaPonderada}");
+            Console.WriteLine($"Media: {Math.Round(mediaPonderada, 1, MidpointRounding.ToEven).ToString("N1")}");
 
             if (mediaPonderada >= 7)
             {
@@ -34,7 +33,7 @@ namespace Estudo.Estudo.Beecrowd.Iniciante
                 Console.WriteLine("Aluno em exame.");
                 double notaExame = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
                 double mediaExame = (mediaPonderada + notaExame) / 2;
-                Console.WriteLine($"Nota do exame: {notaExame}");
+                Console.WriteLine($"Nota do exame: {notaExame.ToString("N1")}");
 
                 if (mediaExame >= 5)
                 {
@@ -44,9 +43,12 @@ namespace Estudo.Estudo.Beecrowd.Iniciante
                 {
                     Console.WriteLine("Aluno reprovado.");
                 }
-                Console.WriteLine($"Media final: {mediaExame}");
+                Console.WriteLine($"Media final: {Math.Round(mediaExame, 1, MidpointRounding.ToEven).ToString("N1")}");
             }
+
         }
 
+        // 2.0 4.0 7.5 8.0
+        // 6.4
     }
 }
