@@ -13,13 +13,13 @@ namespace Estudo.Estudo.Beecrowd.Iniciante
             int qntNotaCem = 0 , qntNotaCinquenta = 0 , qntNotaVinte = 0, qntNotaDez = 0, qntNotaCinco = 0, qntNotaDois = 0;
             int qntMoedaCem = 0 , qntMoedaCinquenta = 0, qntMoedaVinteCinco = 0, qntMoedaDez = 0, qntMoedaCinco = 0, qntMoedaUm = 0;
 
-            double d1 = 0.06;
-            double d2 = 0.05;
-            double calcDouble = d1 - d2;
+            //double d1 = 0.06;
+            //double d2 = 0.05;
+            //double calcDouble = d1 - d2;
 
-            decimal dec1 = 0.06m;
-            decimal dec2 = 0.05m;
-            decimal calcDecimal = dec1 - dec2;
+            //decimal dec1 = 0.06m;
+            //decimal dec2 = 0.05m;
+            //decimal calcDecimal = dec1 - dec2;
 
             while (valor >= 100)
                 {
