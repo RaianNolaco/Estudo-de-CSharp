@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 using System.Globalization;
 
 namespace Estudo.Estudo.Beecrowd.Iniciante
@@ -7,12 +8,20 @@ namespace Estudo.Estudo.Beecrowd.Iniciante
     {
         public static void executar()
         {
-            double valor = double.Parse(Console.ReadLine(),CultureInfo.InvariantCulture);
+            decimal valor = decimal.Parse(Console.ReadLine(),CultureInfo.InvariantCulture);
 
             int qntNotaCem = 0 , qntNotaCinquenta = 0 , qntNotaVinte = 0, qntNotaDez = 0, qntNotaCinco = 0, qntNotaDois = 0;
             int qntMoedaCem = 0 , qntMoedaCinquenta = 0, qntMoedaVinteCinco = 0, qntMoedaDez = 0, qntMoedaCinco = 0, qntMoedaUm = 0;
 
-                while (valor >= 100)
+            double d1 = 0.06;
+            double d2 = 0.05;
+            double calcDouble = d1 - d2;
+
+            decimal dec1 = 0.06m;
+            decimal dec2 = 0.05m;
+            decimal calcDecimal = dec1 - dec2;
+
+            while (valor >= 100)
                 {
                     valor -= 100;
                     qntNotaCem++;                 
@@ -54,37 +63,37 @@ namespace Estudo.Estudo.Beecrowd.Iniciante
                     valor -= 1;
                     qntMoedaCem++;
                 }
-                while (valor >= 0.50)
+                while (valor >= 0.50m)
                 {
-                    valor -= 0.50;
+                    valor -= 0.50m;
                     qntMoedaCinquenta++;
                 }
 
-                while (valor >= 0.25)
+                while (valor >= 0.25m)
                 {
-                    valor -= 0.25;
+                    valor -= 0.25m;
                     qntMoedaVinteCinco++;
                 }
 
-                while (valor >= 0.10)
+                while (valor >= 0.10m)
                 {
-                    valor -= 0.10;
+                    valor -= 0.10m;
                     qntMoedaDez++;
                 }
 
-                while (valor >= 0.05)
+                while (valor >= 0.05M)
                 {
-                    valor -= 0.05;
+                    valor -= 0.05m;
                     qntMoedaCinco++;
                 }
 
-                while (valor >= 0.01)
+            while (valor >= 0.01m)
                 {
-                    valor -= 0.01;
+                    valor -= 0.01m;
                     qntMoedaUm++;
             }
 
-            Console.WriteLine("\nNOTAS:"
+            Console.WriteLine("NOTAS:"
             + $"\n{qntNotaCem} nota(s) de R$ 100.00"
             + $"\n{qntNotaCinquenta} nota(s) de R$ 50.00"
             + $"\n{qntNotaVinte} nota(s) de R$ 20.00"
@@ -103,34 +112,34 @@ namespace Estudo.Estudo.Beecrowd.Iniciante
 
         public static void robo()
         {
-            double valor = double.Parse(Console.ReadLine(),CultureInfo.InvariantCulture);
+            decimal valor = decimal.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
             // notas
             int cem = (int)valor / 100;
-            valor %= 100.0;
+            valor %= 100.0m;
             int cinquenta = (int)valor / 50;
-            valor %= 50.0;
+            valor %= 50.0m;
             int vinte = (int)valor / 20;
-            valor %= 20.0;
+            valor %= 20.0m;
             int dez = (int)valor / 10;
-            valor %= 10.0;
+            valor %= 10.0m;
             int cinco = (int)valor / 5;
-            valor %= 5.0;
+            valor %= 5.0m;
             int dois = (int)valor / 2;
-            valor %= 2.0;
+            valor %= 2.0m;
 
             // moedas
             int um = (int)valor / 1;
-            valor %= 1.0;
-            int cinquentaCent = (int)(valor / 0.5);
-            valor %= 0.5;
-            int vinteECincoCent = (int)(valor / 0.25);
-            valor %= 0.25;
-            int dezCent = (int)(valor / 0.1);
-            valor %= 0.1;
-            int cincoCent = (int)(valor / 0.05);
-            valor %= 0.05;
-            int umCent = (int)(valor / 0.01);
+            valor %= 1.0m;
+            int cinquentaCent = (int)(valor / 0.5m);
+            valor %= 0.5m;
+            int vinteECincoCent = (int)(valor / 0.25m);
+            valor %= 0.25m;
+            int dezCent = (int)(valor / 0.1m);
+            valor %= 0.1m;
+            int cincoCent = (int)(valor / 0.05m);
+            valor %= 0.05m;
+            int umCent = (int)(valor / 0.01m);
 
             Console.WriteLine("NOTAS:");
             Console.WriteLine($"{cem} nota(s) de R$ 100.00");
