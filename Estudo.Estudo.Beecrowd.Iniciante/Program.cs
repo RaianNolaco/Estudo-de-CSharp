@@ -18,7 +18,8 @@ namespace Estudo.Estudo.Beecrowd.Iniciante
                 //Bee1067_Impares.executar();
                 //Bee1078_Tabuada.executar();
                 //Bee1021_NotasEMoedas.executar();
-                Bee1043_IdentificaTriangulo.executar();
+                //Bee1043_IdentificaTriangulo.executar();
+                Bee1042_SortSimples.executar();
 
                 Console.WriteLine("==========================================================================");
             }
