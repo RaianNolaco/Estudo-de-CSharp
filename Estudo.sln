@@ -15,7 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Estudo.Estudo.Beecrowd.Inic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Estudo.CursoUdemy.Secao7", "Estudo.CursoUdemy.Secao7\Estudo.CursoUdemy.Secao7.csproj", "{D2E72FCD-7533-4DE0-A907-AC97558445A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estudo.CursoUdemy.Secao9", "Estudo.CursoUdemy.Secao9\Estudo.CursoUdemy.Secao9.csproj", "{7B08F664-9DD2-4D18-9DE8-3EFDAAE7CF43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Estudo.CursoUdemy.Secao9", "Estudo.CursoUdemy.Secao9\Estudo.CursoUdemy.Secao9.csproj", "{7B08F664-9DD2-4D18-9DE8-3EFDAAE7CF43}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Estudo.CursoUdemy.Secao10", "Estudo.CursoUdemy.Secao10\Estudo.CursoUdemy.Secao10.csproj", "{C2FAA5BE-1BF5-477F-BBE7-2972AE0A52EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estudo.CursoAlura.CriandoPrimeiraAplicacao", "Estudo.CursoAlura.CriandoPrimeiraAplicacao\Estudo.CursoAlura.CriandoPrimeiraAplicacao.csproj", "{1D4C2E2A-57D0-45C1-A5E5-21076B9A3A44}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{7B08F664-9DD2-4D18-9DE8-3EFDAAE7CF43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B08F664-9DD2-4D18-9DE8-3EFDAAE7CF43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B08F664-9DD2-4D18-9DE8-3EFDAAE7CF43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2FAA5BE-1BF5-477F-BBE7-2972AE0A52EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2FAA5BE-1BF5-477F-BBE7-2972AE0A52EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2FAA5BE-1BF5-477F-BBE7-2972AE0A52EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2FAA5BE-1BF5-477F-BBE7-2972AE0A52EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D4C2E2A-57D0-45C1-A5E5-21076B9A3A44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D4C2E2A-57D0-45C1-A5E5-21076B9A3A44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D4C2E2A-57D0-45C1-A5E5-21076B9A3A44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D4C2E2A-57D0-45C1-A5E5-21076B9A3A44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
