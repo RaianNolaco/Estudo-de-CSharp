@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Transactions;
 
-namespace Estudo.CursoUdemy.Secao10.ExemploAula.ExemploHeranca
+namespace Estudo.CursoUdemy.Secao10.ExemploAula.ExemploUpDonwCast
 {
     public class Account
     {

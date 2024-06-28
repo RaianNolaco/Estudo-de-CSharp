@@ -1,4 +1,4 @@
-﻿namespace Estudo.CursoUdemy.Secao10.ExemploAula.ExemploHeranca
+﻿namespace Estudo.CursoUdemy.Secao10.ExemploAula.ExemploUpDonwCast
 {
     internal class BusinessAccount : Account
     {

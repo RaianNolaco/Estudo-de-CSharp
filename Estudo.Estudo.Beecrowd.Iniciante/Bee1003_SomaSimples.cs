@@ -15,6 +15,7 @@ namespace Estudo.Estudo.Beecrowd.Iniciante
             int soma = A + B;
 
             Console.WriteLine("SOMA = " + soma);
+            Console.WriteLine( $"{soma.ToString("F2")}");
         }
     }
 }

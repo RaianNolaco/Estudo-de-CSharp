@@ -1,11 +1,4 @@
-﻿using Estudo.CursoUdemy.Secao10.ExemploAula.Classes;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Estudo.CursoUdemy.Secao10.ExemploAula.ExemploHeranca
+﻿namespace Estudo.CursoUdemy.Secao10.ExemploAula.ExemploHeranca
 {
     public static class HerancaExec
     {
