@@ -20,9 +20,11 @@ namespace Estudo.Estudo.Beecrowd.Iniciante
                 //Bee1021_NotasEMoedas.executar();
                 //Bee1043_IdentificaTriangulo.executar();
                 //Bee1042_SortSimples.executar();
-                Bee1064_PositivoMedia.executar();
+                //Bee1064_PositivoMedia.executar();
+                Bee1052_Mes.executar();
 
                 Console.WriteLine("==========================================================================");
+                Console.ReadLine();
             }
         }
     }
