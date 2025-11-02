@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Estudo.CursoUdemy.Secao13.ExemploAula
+namespace Estudo.CursoUdemy.Secao13.ExemploAula.IntroGenerics
 {
     public class PrintServiceGeneric<T>
     {
