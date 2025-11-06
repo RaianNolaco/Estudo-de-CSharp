@@ -21,10 +21,11 @@ namespace Estudo.Estudo.Beecrowd.Iniciante
                 //Bee1043_IdentificaTriangulo.executar();
                 //Bee1042_SortSimples.executar();
                 //Bee1064_PositivoMedia.executar();
-                Bee1052_Mes.executar();
+                //Bee1052_Mes.executar();
+                //bee2006_IdentificandoCha.executar();
+                Bee1014_CoordenadasDeUmPonto.executar();
 
                 Console.WriteLine("==========================================================================");
-                Console.ReadLine();
             }
         }
     }
