@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Estudo.Estudo.Beecrowd.Iniciante
 {
-    public static class Bee1041_CoordenadasDeUmPonto
+    public static class Bee1014_CoordenadasDeUmPonto
     {
         public static void executar()
         {

@@ -2,14 +2,11 @@
 
 
 using Estudo.CursoUdemy.Secao13.ExemploAula.HashCodeEquals;
+using Estudo.CursoUdemy.Secao13.ExemploAula.HashSetSortedSet;
 using Estudo.CursoUdemy.Secao13.ExemploAula.IntroGenerics;
 using Estudo.CursoUdemy.Secao13.ExemploAula.RestricoesGenerics;
 
 //IntroGenericsParte1.executar();
 //RestricoesGenerics.executar();
-HashCodeEquals.executar();
-
-var a = (1,2) switch
-{
-    (1,2) => 1
-};
+//HashCodeEquals.executar();
+HashSetSortedSet.executar();
