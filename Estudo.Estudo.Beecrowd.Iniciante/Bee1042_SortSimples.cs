@@ -1,10 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Estudo.Estudo.Beecrowd.Iniciante
 {
@@ -34,6 +28,7 @@ namespace Estudo.Estudo.Beecrowd.Iniciante
             valores[2] = -14;
 
             decimal[] valoresOrdenados = new decimal[valores.Length];
+            decimal[] teste = new decimal[valores.Length];
             decimal menorValor = 0;
             decimal maiorValor = 0;
             bool taNalista = false;

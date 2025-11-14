@@ -39,8 +39,21 @@ namespace Estudo.CursoUdemy.Secao13.ExemploAula.HashSetSortedSet
             e.ExceptWith(b);
             printCollection(e);
 
+            Console.WriteLine("=====");
 
+            List<int> eita = new List<int> { 1, 2,4,3 };
+            List<int> alo = new List<int> { 3,4,1};
+            // List<int> ain = new List<int>(eita);
+
+            var hm = eita.Intersect(alo);
+            printCollection(hm);
+
+            bool possuiTodos = alo.All(x => eita.Contains(x));
+            Console.WriteLine(possuiTodos);          
+            
         }
+
+        
 
         static void printCollection<T>(IEnumerable<T> collection)
         {
