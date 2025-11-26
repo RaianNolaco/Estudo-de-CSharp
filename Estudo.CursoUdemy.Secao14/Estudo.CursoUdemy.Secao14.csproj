@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Estudo.CursoUdemy.Secao13\Estudo.CursoUdemy.Secao13.csproj" />
+  </ItemGroup>
+
 </Project>
