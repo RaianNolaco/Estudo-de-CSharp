@@ -11,7 +11,7 @@ namespace Estudo.CursoUdemy.Secao14.ExemploAula
     {
         public static void executar()
         {
-            DateTime dt = new DateTime(2025, 11, 25, 8, 10, 45);
+            DateTime dt = new DateTime(2025, 11, 11, 2, 30, 40);
             Console.WriteLine(dt.ElapsedTime());
 
 
