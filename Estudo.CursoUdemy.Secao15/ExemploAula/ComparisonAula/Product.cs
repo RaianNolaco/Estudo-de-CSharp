@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Globalization;
 
 namespace Estudo.CursoUdemy.Secao15.ExemploAula.ComparisonAula
 {
-    public class Product : IComparable<Product>
+    public class Product
     {
         public string Name { get; set; }
         public double Price { get; set; }
@@ -21,11 +16,6 @@ namespace Estudo.CursoUdemy.Secao15.ExemploAula.ComparisonAula
         public override string ToString()
         {
             return Name + ",  " + Price.ToString("F2",CultureInfo.InvariantCulture);
-        }
-
-        public int CompareTo(Product? other)
-        {
-            return Name.ToUpper().CompareTo(other.Name.ToUpper());
         }
     }
 }
