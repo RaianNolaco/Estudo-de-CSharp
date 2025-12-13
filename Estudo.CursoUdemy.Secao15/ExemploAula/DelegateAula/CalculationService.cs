@@ -21,5 +21,10 @@ namespace Estudo.CursoUdemy.Secao15.ExemploAula.DelegateAula
             return x * x;
         }
 
+        public double Min(double x, double y)
+        {
+            return (x < y) ? x : y;
+        }
+
     }
 }

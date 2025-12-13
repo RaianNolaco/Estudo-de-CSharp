@@ -15,9 +15,12 @@ namespace Estudo.CursoUdemy.Secao15.ExemploAula.DelegateAula
             double a = 10;
             double b = 12;
 
+            var calc = new CalculationService();
+
             BinaryNumericOperation op = CalculationService.Max;
-           // BinaryNumericOperation op = new BinaryNumericOperation(CalculationService.Max);
-             
+            BinaryNumericOperation op3 = calc.Min;
+            // BinaryNumericOperation op = new BinaryNumericOperation(CalculationService.Max);
+            //BinaryNumericOperation op2 = ;
 
 
             //double result = CalculationService.Square(a);
