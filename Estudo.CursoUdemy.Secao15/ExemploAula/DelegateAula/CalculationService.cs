@@ -25,6 +25,22 @@ namespace Estudo.CursoUdemy.Secao15.ExemploAula.DelegateAula
         {
             return (x < y) ? x : y;
         }
+        public static void ShowMax(double x, double y)
+        {
+            Console.WriteLine((x > y) ? x : y);
+        }
+        public static void ShowSum(double x, double y)
+        {
+            Console.WriteLine(x + y);
+        }
+        public static void ShowSquare(double x)
+        {
+            Console.WriteLine(x * x);
+        }
 
+        public static void ShowMin(double x, double y)
+        {
+            Console.WriteLine((x < y) ? x : y);
+        }
     }
 }
