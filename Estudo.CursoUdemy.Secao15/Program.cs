@@ -1,7 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Estudo.CursoUdemy.Secao15.ExemploAula.ActionAula;
+using Estudo.CursoUdemy.Secao15.ExemploAula.AulaFunc;
 using Estudo.CursoUdemy.Secao15.ExemploAula.ComparisonAula;
 using Estudo.CursoUdemy.Secao15.ExemploAula.DelegateAula;
+using Estudo.CursoUdemy.Secao15.ExemploAula.LinqAula;
 using Estudo.CursoUdemy.Secao15.ExemploAula.MultCastDelegateAula;
 using Estudo.CursoUdemy.Secao15.ExemploAula.PredicateAula;
 
@@ -11,4 +13,6 @@ Console.WriteLine("Hello, World!");
 //DelegateAula.executar();
 //MultCastDelegateAula.executar();
 //PredicateAula.executar();
-ActionAula.executar();
+//ActionAula.executar();
+//AulaFunc.executar();
+LinqAula.executar();

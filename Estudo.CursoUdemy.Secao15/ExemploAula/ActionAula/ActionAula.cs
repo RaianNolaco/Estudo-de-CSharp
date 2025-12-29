@@ -16,7 +16,7 @@ namespace Estudo.CursoUdemy.Secao15.ExemploAula.ActionAula
             produtosList.Add(new ProdutoAction("TV", 900.00, 12));
             produtosList.Add(new ProdutoAction("Mouse", 50.00, 4));
             produtosList.Add(new ProdutoAction("Tablet", 350.00, 2));
-            produtosList.Add(new ProdutoAction("HD Case", 80.45, 6));
+            produtosList.Add(new ProdutoAction("HD Case", 80.90, 6));
 
             Action<ProdutoAction> act = AtualizarPreco;
             Action<ProdutoAction> actLamda = p => { p.Preco += p.Preco * 0.1; };
@@ -38,6 +38,7 @@ namespace Estudo.CursoUdemy.Secao15.ExemploAula.ActionAula
 
             produtosList.ForEach(p => p.Preco += p.Preco * 0.1);
             produtosList.ForEach(Console.WriteLine);
+            produtosList.ForEach(AtualizarPreco);
         }
 
 
