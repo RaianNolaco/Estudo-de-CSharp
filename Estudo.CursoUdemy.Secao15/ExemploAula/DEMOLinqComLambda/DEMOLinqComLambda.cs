@@ -33,27 +33,49 @@ namespace Estudo.CursoUdemy.Secao15.ExemploAula.DEMOLinqComLambda
             print("todos produtos", products);
 
             var r1 = products.Where( x => x.Category.Tier.Equals(1) && x.Price < 900);
-            print("Prudotos tier 1 por menos de 900", r1);
+
+            var s1 = from produto in products
+                     where produto.Category.Id == 1 && produto.Price < 900
+                     select produto;
+
+            print("Prudotos tier 1 por menos de 900", s1);
 
             var r2 = products.Where(x => x.Category.Name.Equals("Tools"))
                              .Select(x => x.Name);
 
-            print("Nome das ferramentas com C", r2);
+            var s2 = from p in products
+                     where p.Category.Name.Equals("Tools")
+                     select p.Name;
+
+            print("Nome das ferramentas com C", s2);
 
             var r3 = products.Where(x => x.Name[0] == 'C')
                              .Select(x => new { x.Name, x.Price, CategoryName = x.Category.Name });
 
-            print("Nome iniciados com C", r3);
+            var s3 = from p in products
+                     where p.Name[0] == 'C'
+                     select new {p.Name, p.Price, CategoryName = p.Category.Name};
+
+            print("Nome iniciados com C", s3);
 
             var r4 = products.Where(x => x.Category.Tier ==1)
                              .OrderBy(x => x.Price).ThenBy(n => n.Name);
 
-            print("Produtos tier 1 por preço", r4);
+            var s4 = from p in products
+                     where p.Category.Tier.Equals(1)
+                     orderby p.Name
+                     orderby p.Price
+                     select p;
+
+            print("Produtos tier 1 por preço", s4);
 
             var r5 = r4.Skip(2)
                        .Take(4);
 
-            print("Pulando 2 e pegando 4", r5);
+            var s5 = (from p in s4
+                      select p).Skip(2).Take(4);
+
+            print("Pulando 2 e pegando 4", s5);
 
 
             var r6 = products.First();
@@ -103,7 +125,10 @@ namespace Estudo.CursoUdemy.Secao15.ExemploAula.DEMOLinqComLambda
 
             var r16 = products.GroupBy(p => p.Category);
 
-            foreach (IGrouping<Category, ProductDemo> group in r16)
+            var s16 = from p in products
+                      group p by p.Category;
+
+            foreach (IGrouping<Category, ProductDemo> group in s16)
             {
                 Console.WriteLine("\nCategoria: " + group.Key.Name);
                 //group.ToList().ForEach(Console.WriteLine);
