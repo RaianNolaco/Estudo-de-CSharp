@@ -7,6 +7,7 @@ using Estudo.CursoUdemy.Secao15.ExemploAula.DEMOLinqComLambda;
 using Estudo.CursoUdemy.Secao15.ExemploAula.LinqAula;
 using Estudo.CursoUdemy.Secao15.ExemploAula.MultCastDelegateAula;
 using Estudo.CursoUdemy.Secao15.ExemploAula.PredicateAula;
+using Estudo.CursoUdemy.Secao15.Exercicios.ExercicioLerCSV;
 
 Console.WriteLine("Hello, World!");
 
@@ -17,4 +18,5 @@ Console.WriteLine("Hello, World!");
 //ActionAula.executar();
 //AulaFunc.executar();
 //LinqAula.executar();
-DEMOLinqComLambda.executar();
+//DEMOLinqComLambda.executar();
+ExercicioLerCSV.executar();
